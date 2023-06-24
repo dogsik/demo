@@ -1,14 +1,53 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "Reviews":[
+        {
+            "postId": 1,
+            "id": 1,
+            "name": "Илья",
+            "email": "example@mail.ru",
+            "body": "Хороший сервис"
+          },
+          {
+            "postId": 1,
+            "id": 2,
+            "name": "Денис",
+            "email": "Denis@gmail.com",
+            "body": "Неплохо, мне понравилось"
+          },
+          {
+            "postId": 1,
+            "id": 3,
+            "name": "Никита",
+            "email": "Nikita@gmail.com",
+            "body": "лайк"
+          },
+          {
+            "postId": 1,
+            "id": 4,
+            "name": "Паша",
+            "email": "Pavel@gmail.com",
+            "body": "Все понравилось\nСпасибо за помощь поддержке"
+          },
+          {
+            "postId": 1,
+            "id": 5,
+            "name": "Анна",
+            "email": "Anna@gmail.com",
+            "body": "Люблю этот сервес"
+          }
+    ],
+
+    "Bookings":[
+        {
+            "id": 1,
+            "bookingDate": "12-09-2022",
+            "appointmentDate":"14-10-2022",
+            "startTime": "09:00 am",
+            "endTime": "09:30 am",
+            "customerName": "Steve Test",
+            "customerEmail": "stevetest@email.com",
+            "additionalInfo": "None",
+            "payment": true
+        }
+    ]
 }
